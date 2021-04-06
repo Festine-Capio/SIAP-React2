@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import Landing from "pages/LandingPage";
-import Acc from "pages/AccessPage";
+import Login from "pages/LoginPage";
+import Register from "pages/RegisterPage";
+import LoginMitra from "pages/LoginMitra";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import Switch from "react-bootstrap/esm/Switch";
@@ -11,7 +14,10 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Landing} />
-          <Route exact path="/acc" component={Acc} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/register" component={Register} />
+          <Route exact path="/loginmitra" component={LoginMitra} />
+          
         </Switch>
       </Router>
     </div>
