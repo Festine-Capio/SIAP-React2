@@ -1,11 +1,20 @@
 import React from "react";
-import NavBar from "components/NavBar"
-
+import NavBar from "components/NavBar";
+import CarouselComponent from "components/CarouselComponent";
+import Foo from "components/FooterContent";
 const LandingPage = () => {
   return (
-    
-      <NavBar/>
-   
+    <>
+      <div className="row">
+        <NavBar />
+      </div>
+      <div className="row">
+        <CarouselComponent />
+      </div>
+      <div>
+        <Foo />
+      </div>
+    </>
   );
 };
 
