@@ -63,7 +63,7 @@ const NavBar = () => {
             </Nav.Link>
             <Nav.Link href="#">Infromasi </Nav.Link>
             <Nav.Link href="#">tentang kami </Nav.Link>
-            <Button variant="primary" size="lg" active>
+            <Button variant="primary" active>
               Masuk
             </Button>
           </Nav>
