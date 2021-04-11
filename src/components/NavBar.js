@@ -16,6 +16,7 @@ const NavBar = () => {
           color: "#3c3c3c",
           left: "0",
           right: "0",
+          zIndex: "1",
         }}
       >
         <Navbar.Brand href="#home">
@@ -46,6 +47,7 @@ const NavBar = () => {
           right: "0",
           height: "80px",
           color: "#3c3c3c",
+          zIndex: "1",
         }}
       >
         <Navbar.Brand href="#home">

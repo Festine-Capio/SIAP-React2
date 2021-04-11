@@ -3,11 +3,11 @@ import Landing from "pages/LandingPage";
 import Login from "pages/LoginPage";
 import Register from "pages/RegisterPage";
 import LoginMitra from "pages/LoginMitra";
-
-import "bootstrap/dist/css/bootstrap.min.css";
+import "assets/scss/style.scss";
+import Foo from "components/FooterContent";
 import './App.css';
-import Switch from "react-bootstrap/esm/Switch";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
@@ -17,8 +17,8 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/loginmitra" component={LoginMitra} />
-          
         </Switch>
+       
       </Router>
     </div>
   );

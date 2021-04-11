@@ -1,0 +1,149 @@
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "utilities";
+@import "print";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+    display: block;
+.bg-default {
+  background-color: #0c135f;
+  color: #ffffff;
+
+
+  height: 553px;
+}
+.section-space80 {
+display: block;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.mb60 {
+  margin-bottom: 60px;
+}
+.tiny-footer {
+  background-color: #ffffff;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   height: 57px;
+     
+
+}
+.foo-logo{
+   width: 67px;
+  height: 14px;
+}
+
+.mnc-group {
+  width: 72px;
+  height: 31px;
+ 
+}
+.listnone {
+  list-style: none;
+ color: #9ca4ff;
+ margin-bottom: 4px;
+ line-height: 2;
+ font-size: 16px;
+}
+.listnone2 {
+  list-style: none;
+ color: #9ca4ff;
+ margin-bottom: 4px;
+ line-height: 2;
+ text-align: right;
+ font-size: 16px;
+}
+#contact li{
+  display: inline;
+  list-style: none;
+  padding-right: 50px;
+}
+#contact-img li{
+  display: inline;
+  list-style: none;
+  padding-right: 90px;
+  align-items: center;
+
+}
+.contact-icon{
+  width: 36px;
+  height: 36px;
+  margin: 0 19px 10px 18px;
+ object-fit: contain;
+ 
+}
+.contact-icon2{
+  width: 32px;
+  height: 24px;
+ 
+ object-fit: contain;
+
+}
+.contact-font{
+  font-size: 14px;
+}
+}
+.logo1-disclaimer{
+  width: 178px;
+  height: 72px;
+}
+.logo2-disclaimer{
+  width: 349px;
+  height: 62px;
+}
+.logo3-disclaimer{
+  width: 165px;
+  height: 73px;
+}
+#disclaimer li{
+ text-align: justify;
+ margin-bottom: 24px;
+ color: #3a3a3a;
+}
+
+
+

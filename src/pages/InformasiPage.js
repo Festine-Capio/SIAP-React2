@@ -3,7 +3,7 @@ import NavBar from "components/NavBar";
 import Disclaimer from "components/Disclaimer"
 import CarouselComponent from "components/CarouselComponent";
 import Foo from "components/FooterContent";
-const LandingPage = () => {
+const ProdukHajiPage = () => {
   return (
     <>
       <div className="row">
@@ -20,4 +20,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default ProdukHajiPage;

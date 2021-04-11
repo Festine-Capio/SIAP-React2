@@ -56,5 +56,36 @@ div.form-control,
 select.form-control {
   height: 56px;
 }
+.foo1 {
+ 
+  display: block;
+ left: 0;
+  width: 1366px;
+  height: 610px;
+  margin: 69px 0 0;
+  padding: 9px 0 0;
+  opacity: 0;
+  background-color: #0c135f;
+}
+.Mask {
+  width: 1366px;
+  height: 610px;
+  margin: 69px 0 0;
+  padding: 9px 0 0;
+  opacity: 0;
+  background-color: #d8d8d8;
+}
+.logo-ojk{
+  width: 79px;
+  height: 32px;
+  margin: 0 0px 9px 0px;
+}
+.banner{
+
+  display: block;
+ width: 1515px;
+}
+
+
 
 
