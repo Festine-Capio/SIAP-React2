@@ -3,6 +3,7 @@ import NavBar from "components/NavBar";
 import Disclaimer from "components/Disclaimer"
 import ProdukLandingPage from "components/ProdukLandingPage";
 import CarouselComponent from "components/CarouselComponent";
+import Benefit from "components/Benefit";
 import Foo from "components/FooterContent";
 const LandingPage = () => {
   return (
@@ -13,12 +14,18 @@ const LandingPage = () => {
       <div className="row">
         <CarouselComponent />
       </div>
-      <div>
-        <ProdukLandingPage/>
-      </div>
       <div className="row">
-        <Disclaimer/>
+        <ProdukLandingPage />
       </div>
+
+      
+          <Benefit/>
+      
+     
+      <div className="row">
+        <Disclaimer />
+      </div>
+
       <Foo />
     </>
   );
