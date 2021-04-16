@@ -21,6 +21,7 @@ const Benefit = () => {
                   width: "350px",
                   height: "500px",
                   borderRadius: "20px",
+                  boxShadow: "0 20px 40px 0 #bedcef",
                 }}
               >
                 <Card.Body>
@@ -56,6 +57,7 @@ const Benefit = () => {
                   width: "350px",
                   height: "500px",
                   borderRadius: "20px",
+                  boxShadow: "0 20px 40px 0 #bedcef",
                 }}
               >
                 <Card.Body>
@@ -91,6 +93,7 @@ const Benefit = () => {
                   width: "350px",
                   height: "500px",
                   borderRadius: "20px",
+                  boxShadow: "0 20px 40px 0 #bedcef",
                 }}
               >
                 <Card.Body>
