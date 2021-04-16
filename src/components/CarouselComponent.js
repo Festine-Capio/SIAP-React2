@@ -7,10 +7,10 @@ const CarouselComponent = () => {
       <Carousel
         style={{
           marginTop: "130px",
-        display:"block",
+          display: "block",
           left: "0",
           right: "0",
-          width:"100%"
+          width: "100%",
         }}
       >
         <Carousel.Item interval={1000}>

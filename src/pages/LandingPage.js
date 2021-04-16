@@ -1,10 +1,11 @@
 import React from "react";
 import NavBar from "components/NavBar";
-import Disclaimer from "components/Disclaimer"
+import Disclaimer from "components/Disclaimer";
 import ProdukLandingPage from "components/ProdukLandingPage";
 import CarouselComponent from "components/CarouselComponent";
 import Benefit from "components/Benefit";
 import Foo from "components/FooterContent";
+import Portofolio from "components/Portofolio";
 const LandingPage = () => {
   return (
     <>
@@ -18,10 +19,10 @@ const LandingPage = () => {
         <ProdukLandingPage />
       </div>
 
-      
-          <Benefit/>
-      
-     
+      <Benefit />
+<div className="row">
+  <Portofolio/>
+</div>
       <div className="row">
         <Disclaimer />
       </div>

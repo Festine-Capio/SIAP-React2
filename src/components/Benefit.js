@@ -16,7 +16,13 @@ const Benefit = () => {
           </div>
           <div className="row mt-5">
             <div className="col">
-              <Card style={{ width: "350px" }}>
+              <Card
+                style={{
+                  width: "350px",
+                  height: "500px",
+                  borderRadius: "20px",
+                }}
+              >
                 <Card.Body>
                   <div className="row d-flex justify-content-center mt-3">
                     <img src={Mudah} alt="mudah" />
@@ -45,7 +51,13 @@ const Benefit = () => {
               </Card>
             </div>
             <div className="col">
-              <Card style={{ width: "350px" }}>
+              <Card
+                style={{
+                  width: "350px",
+                  height: "500px",
+                  borderRadius: "20px",
+                }}
+              >
                 <Card.Body>
                   <div className="row d-flex justify-content-center mt-3">
                     <img src={Online} alt="mudah" />
@@ -74,7 +86,13 @@ const Benefit = () => {
               </Card>
             </div>
             <div className="col">
-              <Card style={{ width: "350px" }}>
+              <Card
+                style={{
+                  width: "350px",
+                  height: "500px",
+                  borderRadius: "20px",
+                }}
+              >
                 <Card.Body>
                   <div className="row d-flex justify-content-center mt-3">
                     <img src={Aman} alt="mudah" />
