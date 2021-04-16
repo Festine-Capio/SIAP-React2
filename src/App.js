@@ -3,6 +3,7 @@ import Landing from "pages/LandingPage";
 import Login from "pages/LoginPage";
 import Register from "pages/RegisterPage";
 import LoginMitra from "pages/LoginMitra";
+import LandingPageBorrower from "pages/LandingPageBorrower";
 import "assets/scss/style.scss";
 import Foo from "components/FooterContent";
 import './App.css';
@@ -17,8 +18,12 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/loginmitra" component={LoginMitra} />
+          <Route
+            exact
+            path="/landingpageborrower"
+            component={LandingPageBorrower}
+          />
         </Switch>
-       
       </Router>
     </div>
   );

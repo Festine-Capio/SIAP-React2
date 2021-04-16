@@ -162,4 +162,23 @@ display: block;
 }
 }
 
+.sidenav {
+     width: 200px;
+  height: 768px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+ 
+
+    padding-top: 20px;
+  }
+
+.logosidnav{
+   width: 96px;
+  height: 20px;
+}
+.dropdown-side{
+  background-color: #E6E6FA;
+}
 
