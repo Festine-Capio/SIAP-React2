@@ -3,9 +3,10 @@ import Landing from "pages/LandingPage";
 import Login from "pages/LoginPage";
 import Register from "pages/RegisterPage";
 import LoginMitra from "pages/LoginMitra";
+import ListProduk from "pages/ListProdukPage"
 import LandingPageBorrower from "pages/LandingPageBorrower";
 import "assets/scss/style.scss";
-import Foo from "components/FooterContent";
+
 import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -23,6 +24,7 @@ function App() {
             path="/landingpageborrower"
             component={LandingPageBorrower}
           />
+          <Route exact path="/listproduk" component={ListProduk} />
         </Switch>
       </Router>
     </div>
