@@ -7,6 +7,8 @@ import SiapInvestasi from "components/SiapInvestasi";
 import DanaTunai from "components/DanaTunai"
 import Foo from "components/FooterContent";
 import DanaHaji from "components/DanaHaji";
+import DanaMobil from "components/SiapMobil";
+import DanaRumah from "components/DanaRumah";
 const InformasiPage = () => {
   return (
     <>
@@ -21,6 +23,8 @@ const InformasiPage = () => {
         <SiapInvestasi />
     <DanaTunai/>
     <DanaHaji/>
+    <DanaMobil/>
+    <DanaRumah/>
       <div className="row">
         <Disclaimer />
       </div>

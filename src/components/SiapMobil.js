@@ -1,14 +1,14 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import Dana from "assets/images/dana_tunai_3x.png";
-const DanaTunai = () => {
+import Mobil from "assets/images/mobil_3x.png";
+const SiapMobil = () => {
   return (
     <div className="container">
       <div className="section-space80">
         <div className="row">
           <div className="col mt-5">
             <div className="row mt-3">
-              <h3>SIAP Dana tunai</h3>
+              <h3>SIAP Dana Mobil</h3>
             </div>
             <div className="row mt-3">
               <p className="text-justify">
@@ -27,9 +27,9 @@ const DanaTunai = () => {
           <div className="col">
             <div className="row d-flex justify-content-center">
               <img
-                src={Dana}
+                src={Mobil}
                 alt="dana"
-                style={{ width: "292px", height: "292px" }}
+                style={{ width: " 350px", height: " 350px" }}
               />
             </div>
           </div>
@@ -38,4 +38,4 @@ const DanaTunai = () => {
     </div>
   );
 };
-export default DanaTunai;
+export default SiapMobil;
