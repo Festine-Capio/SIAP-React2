@@ -3,7 +3,8 @@ import Landing from "pages/LandingPage";
 import Login from "pages/LoginPage";
 import Register from "pages/RegisterPage";
 import LoginMitra from "pages/LoginMitra";
-import ListProduk from "pages/ListProdukPage"
+import ListProduk from "pages/ListProdukPage";
+import ProdukHaji from "pages/ProdukHajiPage";
 import LandingPageBorrower from "pages/LandingPageBorrower";
 import "assets/scss/style.scss";
 
@@ -25,6 +26,7 @@ function App() {
             component={LandingPageBorrower}
           />
           <Route exact path="/listproduk" component={ListProduk} />
+          <Route exact path="/produkhaji" component={ProdukHaji} />
         </Switch>
       </Router>
     </div>
