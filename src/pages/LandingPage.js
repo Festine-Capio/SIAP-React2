@@ -6,6 +6,7 @@ import CarouselComponent from "components/CarouselComponent";
 import Benefit from "components/Benefit";
 import Foo from "components/FooterContent";
 import Portofolio from "components/Portofolio";
+import Dapatkan from "components/DapatkanPendanaan";
 const LandingPage = () => {
   return (
     <>
@@ -22,6 +23,9 @@ const LandingPage = () => {
       <Benefit />
 <div className="row">
   <Portofolio/>
+</div>
+<div>
+  <Dapatkan/>
 </div>
       <div className="row">
         <Disclaimer />
