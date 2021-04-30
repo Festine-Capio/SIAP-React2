@@ -1,14 +1,15 @@
 import React, { useContext } from "react";
-import { ListGroup, Nav, Col, Tab, Row, Dropdown } from "react-bootstrap";
+import { ListGroup, Nav, Col, Tab, Row, Dropdown, Button } from "react-bootstrap";
 import Logo from "assets/images/siap.png";
-
-
+import { FaHome } from "react-icons/fa";
+import { FaLock } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 const SideBar = () => {
   return (
     <Nav
       className="flex-column sidenav"
       style={{
-        backgroundColor: "#E6E6FA",
+        backgroundColor: "#f0f0f7",
       }}
     >
       <div className="row d-flex justify-content-center mt-5">
@@ -16,32 +17,72 @@ const SideBar = () => {
       </div>
 
       <div className="row ml-1 mt-5">
-        <div className="col">
-          <p>Jenis Akun</p>
-        </div>
+        <div className="col"></div>
       </div>
-      <div className="row ml-1">
-        <h5>Borrower</h5>
-      </div>
+      <div className="row ml-1"></div>
 
       <Nav.Link className="row pl-5">
         <div className="row"></div>
       </Nav.Link>
-      <div className="row pl-5 mt-4 mb-4">
-        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
-          <Row>
-            <Col>
-              <ListGroup>
-                <ListGroup.Item action href="#link1">
-                  Link 1
-                </ListGroup.Item>
-                <ListGroup.Item action href="#link2">
-                  Link 2
-                </ListGroup.Item>
-              </ListGroup>
-            </Col>
-          </Row>
-        </Tab.Container>
+      <div className="row mt-4 mb-4">
+        <ul
+          className="list-group list-group-flush"
+          style={{ width: "215px", backgroundColor: "#f0f0f7" }}
+        >
+          <li
+            className="list-group-item"
+            style={{ backgroundColor: "#f4f5f7" }}
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-2">
+                  <FaHome className="icon-side" />
+                </div>
+                <div className="col">Home</div>
+              </div>
+            </div>
+          </li>
+          <li
+            className="list-group-item"
+            style={{ backgroundColor: "#f4f5f7" }}
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-2">
+                  <FaLock className="icon-side" />
+                </div>
+                <div className="col">Pengajuan</div>
+              </div>
+            </div>
+          </li>
+          <li
+            className="list-group-item"
+            style={{ backgroundColor: "#f4f5f7" }}
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-2">
+                  <FaSearch className="icon-side" />
+                </div>
+                <div className="col">Bantuan</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div className="row mt-4">
+        <Button
+          variant="primary"
+          active
+          block
+          style={{ width: "215px", height: "48px" }}
+        >
+          Daftar jadi lender
+        </Button>
+      </div>
+      <div className="row d-flex justify-content-center align-items-center" style={{marginTop:"188px"}}>
+        <p>Syarat & ketentuan</p>
+        <p>Kebijakan Privasi</p>
       </div>
     </Nav>
   );

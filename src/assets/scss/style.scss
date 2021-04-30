@@ -422,3 +422,54 @@ pendanaan{
 .gap{
   column-gap: 45px;
 }
+.foto-profile{
+   width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.icon-side{
+   width: 24px;
+  height: 24px;
+  color: #253999;
+   opacity: 0.1;
+}
+.has-search2 .form-control {
+    padding-left: 3rem;
+   width: 430px;
+   height: 48px;
+   border-radius: 10px;
+   border: solid 1px #e8e8e8;
+   background-color: #f4f5f7;
+}
+
+.has-search2 .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 24px;
+  height: 24px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.flag{
+  width: 24px;
+  height: 20px;
+   box-shadow: 0 2px 4px 0 rgba(139, 139, 139, 0.5);
+}
+.profile-nav{
+   width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-left: 0;
+}
+.prof-accor{
+   width: 250px;
+  height: 74px;
+   border-radius: 10px;
+  border: solid 1px #e8e8e8;
+  background-color: #f4f5f7;
+}

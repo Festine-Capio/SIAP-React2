@@ -1,8 +1,7 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import Mudah from "assets/images/tumbnail-image-syarat.png";
-import Online from "assets/images/tumbnail-image-online.png";
-import Aman from "assets/images/tumbnail-image-aman.png";
+import { Card, Button} from "react-bootstrap";
+import Profile from "assets/images/blank_profile.png";
+
 const Tim = () => {
     return (
       <div className="row">
@@ -24,29 +23,45 @@ const Tim = () => {
                 }}
               >
                 <Card.Body>
-                  <div className="row d-flex justify-content-center mt-3">
-                    <img src={Mudah} alt="mudah" />
+                  <div className="row d-flex justify-content-center">
+                    <div className="row d-flex justify-content-center mt-3">
+                      <img src={Profile} alt="mudah" className="foto-profile" />
+                    </div>
                   </div>
-
-                  <Card.Title
-                    style={{
-                      textAlign: "center",
-                      marginTop: "34px",
-                      marginBottom: "17px",
-                    }}
-                  >
-                    Transparan
-                  </Card.Title>
-
-                  <Card.Text
-                    style={{
-                      textAlign: "justify",
-                    }}
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    et hendrerit quam. Nunc id volutpat libero. Aliquam erat
-                    volutpat. Nunc quis consequat massa.
-                  </Card.Text>
+                  <div className="row d-flex justify-content-center">
+                    <Card.Title
+                      style={{
+                        textAlign: "center",
+                        marginTop: "34px",
+                        marginBottom: "17px",
+                      }}
+                    >
+                      Nama
+                    </Card.Title>
+                  </div>
+                  <div className="row d-flex justify-content-center">
+                    <Card.Text
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      Jabatan
+                    </Card.Text>
+                  </div>
+                  <div className="row">
+                    <Button
+                      variant="primary"
+                      active
+                      block
+                      style={{
+                        marginTop: "75px",
+                        marginLeft: "15px",
+                        marginRight: "15px",
+                      }}
+                    >
+                      Lihat Profile Linkedin
+                    </Button>
+                  </div>
                 </Card.Body>
               </Card>
             </div>
@@ -60,29 +75,45 @@ const Tim = () => {
                 }}
               >
                 <Card.Body>
-                  <div className="row d-flex justify-content-center mt-3">
-                    <img src={Mudah} alt="mudah" />
+                  <div className="row d-flex justify-content-center">
+                    <div className="row d-flex justify-content-center mt-3">
+                      <img src={Profile} alt="mudah" className="foto-profile" />
+                    </div>
                   </div>
-
-                  <Card.Title
-                    style={{
-                      textAlign: "center",
-                      marginTop: "34px",
-                      marginBottom: "17px",
-                    }}
-                  >
-                    Transparan
-                  </Card.Title>
-
-                  <Card.Text
-                    style={{
-                      textAlign: "justify",
-                    }}
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    et hendrerit quam. Nunc id volutpat libero. Aliquam erat
-                    volutpat. Nunc quis consequat massa.
-                  </Card.Text>
+                  <div className="row d-flex justify-content-center">
+                    <Card.Title
+                      style={{
+                        textAlign: "center",
+                        marginTop: "34px",
+                        marginBottom: "17px",
+                      }}
+                    >
+                      Nama
+                    </Card.Title>
+                  </div>
+                  <div className="row d-flex justify-content-center">
+                    <Card.Text
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      Jabatan
+                    </Card.Text>
+                  </div>
+                  <div className="row">
+                    <Button
+                      variant="primary"
+                      active
+                      block
+                      style={{
+                        marginTop: "75px",
+                        marginLeft: "15px",
+                        marginRight: "15px",
+                      }}
+                    >
+                      Lihat Profile Linkedin
+                    </Button>
+                  </div>
                 </Card.Body>
               </Card>
             </div>
@@ -96,29 +127,45 @@ const Tim = () => {
                 }}
               >
                 <Card.Body>
-                  <div className="row d-flex justify-content-center mt-3">
-                    <img src={Mudah} alt="mudah" />
+                  <div className="row d-flex justify-content-center">
+                    <div className="row d-flex justify-content-center mt-3">
+                      <img src={Profile} alt="mudah" className="foto-profile" />
+                    </div>
                   </div>
-
-                  <Card.Title
-                    style={{
-                      textAlign: "center",
-                      marginTop: "34px",
-                      marginBottom: "17px",
-                    }}
-                  >
-                    Transparan
-                  </Card.Title>
-
-                  <Card.Text
-                    style={{
-                      textAlign: "justify",
-                    }}
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    et hendrerit quam. Nunc id volutpat libero. Aliquam erat
-                    volutpat. Nunc quis consequat massa.
-                  </Card.Text>
+                  <div className="row d-flex justify-content-center">
+                    <Card.Title
+                      style={{
+                        textAlign: "center",
+                        marginTop: "34px",
+                        marginBottom: "17px",
+                      }}
+                    >
+                      Nama
+                    </Card.Title>
+                  </div>
+                  <div className="row d-flex justify-content-center">
+                    <Card.Text
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      Jabatan
+                    </Card.Text>
+                  </div>
+                  <div className="row">
+                    <Button
+                      variant="primary"
+                      active
+                      block
+                      style={{
+                        marginTop: "75px",
+                        marginLeft: "15px",
+                        marginRight: "15px",
+                      }}
+                    >
+                      Lihat Profile Linkedin
+                    </Button>
+                  </div>
                 </Card.Body>
               </Card>
             </div>

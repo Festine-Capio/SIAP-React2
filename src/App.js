@@ -6,8 +6,9 @@ import LoginMitra from "pages/LoginMitra";
 import ListProduk from "pages/ListProdukPage";
 import ProdukHaji from "pages/ProdukHajiPage";
 import LandingPageBorrower from "pages/LandingPageBorrower";
+import LandingPageMobil from "pages/LandingPageMobil";
 import Informasi from "pages/InformasiPage";
-import TentangKami from "pages/TentangKamiPage"
+import TentangKami from "pages/TentangKamiPage";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -26,6 +27,11 @@ function App() {
             exact
             path="/landingpageborrower"
             component={LandingPageBorrower}
+          />
+          <Route
+            exact
+            path="/landingpagemobil"
+            component={LandingPageMobil}
           />
           <Route exact path="/listproduk" component={ListProduk} />
           <Route exact path="/produkhaji" component={ProdukHaji} />
