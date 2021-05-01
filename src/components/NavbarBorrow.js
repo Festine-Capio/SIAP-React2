@@ -29,8 +29,12 @@ const NavBarBorrow = () => {
       </div>
       <div className="col d-flex justify-content-end">
         <Accordion className="prof-accor">
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="0">
+          <Card className="prof-accor">
+            <Accordion.Toggle
+              as={Card.Header}
+              eventKey="0"
+             
+            >
               <div className="row">
                 <div className="col-sm-4">
                   <img src={Profile} alt="mudah" className="profile-nav" />
@@ -49,9 +53,10 @@ const NavBarBorrow = () => {
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
-              <ListGroup variant="flush">
-                <ListGroup.Item>Profil</ListGroup.Item>
+              <ListGroup>
+                <ListGroup.Item>Pofil</ListGroup.Item>
                 <ListGroup.Item>Keluar</ListGroup.Item>
+               
               </ListGroup>
             </Accordion.Collapse>
           </Card>
