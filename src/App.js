@@ -12,6 +12,8 @@ import TentangKami from "pages/TentangKamiPage";
 import SyaratKetentuan from "pages/SyaratKetentuanPage";
 import SimulasiDanaMobil from "pages/SimulasiDanaMobil";
 import PendaftaranMobil from "pages/PendaftaranDanaMobil";
+import PendaftaranRumah from "pages/PendaftaranDanaRumah";
+import PendaftaranHaji from "pages/PendaftaranDanaHaji";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -42,7 +44,21 @@ function App() {
             path="/simulasidanamobil"
             component={SimulasiDanaMobil}
           />
-          <Route exact path="/pendaftarandanamobil" component={PendaftaranMobil} />
+          <Route
+            exact
+            path="/pendaftarandanamobil"
+            component={PendaftaranMobil}
+          />
+          <Route
+            exact
+            path="/pendaftarandanarumah"
+            component={PendaftaranRumah}
+          />
+          <Route
+            exact
+            path="/pendaftarandanahaji"
+            component={PendaftaranHaji}
+          />
         </Switch>
       </Router>
     </div>
