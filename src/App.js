@@ -15,6 +15,7 @@ import PendaftaranMobil from "pages/PendaftaranDanaMobil";
 import PendaftaranRumah from "pages/PendaftaranDanaRumah";
 import PendaftaranHaji from "pages/PendaftaranDanaHaji";
 import PengajuanDanaMobil from "pages/PengajuanDanaMobil";
+import JadwalMobil from "pages/JadwalAngsuranMobil";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -65,6 +66,7 @@ function App() {
             path="/pengajuandanamobil"
             component={PengajuanDanaMobil}
           />
+          <Route exact path="/jadwalmobil" component={JadwalMobil} />
         </Switch>
       </Router>
     </div>
