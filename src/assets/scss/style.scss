@@ -478,7 +478,18 @@ bigcard{
  border: solid 1px #e8e8e8;
   background-color: #f4f5f7;
   border-radius: 10px;
- 
+ width: max-content;
+ .section-space32 {
+  padding: 32px;
+  
+}
+}
+bigcard2{
+ border: solid 1px #e8e8e8;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+
+  width: 1430px;
  .section-space32 {
   padding: 32px;
   
@@ -495,4 +506,12 @@ bigcard{
    width: 119px;
   height: 120px;
   object-fit: contain;
+}
+.arrow-left{
+   width: 24px;
+  height: 24px;
+}
+.car{
+  width: 72px;
+  height: 72px;
 }

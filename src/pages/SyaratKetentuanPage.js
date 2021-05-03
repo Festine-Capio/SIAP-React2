@@ -6,8 +6,9 @@ import {
  
   Breadcrumb,
 } from "react-bootstrap";
-import LandingMobilContent from "components/LandingMobilContent";
-const LandingPageMobil = () => {
+import SyaratKetentuanContent from "components/SyaratKetentuanContent";
+
+const SyaratKetentuanPage = () => {
   return (
     <div className="row">
       <div className="col">
@@ -18,13 +19,14 @@ const LandingPageMobil = () => {
           <NavBar2 />
           <div className="row mt-4 ml-1 mb-5">
             <bigcard>
-      <div className="section-space32">
-           <LandingMobilContent/>
-           </div></bigcard>
+              <div className="section-space32">
+                <SyaratKetentuanContent />
+              </div>
+            </bigcard>
           </div>
         </div>
       </div>
     </div>
   );
 };
-export default LandingPageMobil;
+export default SyaratKetentuanPage;

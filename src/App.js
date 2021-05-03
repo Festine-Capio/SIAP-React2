@@ -9,6 +9,8 @@ import LandingPageBorrower from "pages/LandingPageBorrower";
 import LandingPageMobil from "pages/LandingPageMobil";
 import Informasi from "pages/InformasiPage";
 import TentangKami from "pages/TentangKamiPage";
+import SyaratKetentuan from "pages/SyaratKetentuanPage";
+import SimulasiDanaMobil from "pages/SimulasiDanaMobil";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -28,15 +30,13 @@ function App() {
             path="/landingpageborrower"
             component={LandingPageBorrower}
           />
-          <Route
-            exact
-            path="/landingpagemobil"
-            component={LandingPageMobil}
-          />
+          <Route exact path="/landingpagemobil" component={LandingPageMobil} />
           <Route exact path="/listproduk" component={ListProduk} />
           <Route exact path="/produkhaji" component={ProdukHaji} />
           <Route exact path="/informasi" component={Informasi} />
           <Route exact path="/tentangkami" component={TentangKami} />
+          <Route exact path="/syaratketentuan" component={SyaratKetentuan} />
+          <Route exact path="/simulasidanamobil" component={SimulasiDanaMobil} />
         </Switch>
       </Router>
     </div>

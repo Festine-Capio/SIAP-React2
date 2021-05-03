@@ -4,14 +4,14 @@ import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Link from "@material-ui/core/Link";
 import BgMobil from "assets/images/mobil.PNG";
 import Aman from "assets/images/tumbnail-image-aman.png";
+import { Accordion, Card, ListGroup, Dropdown, Button } from "react-bootstrap";
 function handleClick(event) {
   event.preventDefault();
   console.info("You clicked a breadcrumb.");
 }
 const LandingMobilContent = () => {
   return (
-    <bigcard>
-      <div className="section-space32">
+    <>
         <div className="row">
           <div className="col">
             <Breadcrumbs aria-label="breadcrumb">
@@ -119,10 +119,50 @@ const LandingMobilContent = () => {
               </div>
             </div>
           </div>
-          <div className="col"></div>
+          <div className="col">
+            <div className="row">
+              <div className="col-sm-1">
+                <h1>01</h1>
+              </div>
+              <div className="col ml-4">
+                <ListGroup>
+                  <ListGroup.Item>Tentang dana mobil</ListGroup.Item>
+                </ListGroup>
+              </div>
+            </div>
+            <div className="row mt-3">
+              <div className="col-sm-1">
+                <h1>02</h1>
+              </div>
+              <div className="col ml-4">
+                <ListGroup>
+                  <ListGroup.Item>Dokumen yang diperlukan</ListGroup.Item>
+                </ListGroup>
+              </div>
+            </div>
+            <div className="row mt-3">
+              <div className="col-sm-1">
+                <h1>03</h1>
+              </div>
+              <div className="col ml-4">
+                <ListGroup>
+                  <ListGroup.Item>Bagaimana Prosesnya ?</ListGroup.Item>
+                </ListGroup>
+              </div>
+            </div>
+            <div className="row ml-1 mt-5">
+              <Button
+                variant="primary"
+                active
+                block
+               
+              >
+                Ajukan dana sekarang
+              </Button>
+            </div>
+          </div>
         </div>
-      </div>
-    </bigcard>
+      </>
   );
 };
 export default LandingMobilContent;
