@@ -14,6 +14,7 @@ import SimulasiDanaMobil from "pages/SimulasiDanaMobil";
 import PendaftaranMobil from "pages/PendaftaranDanaMobil";
 import PendaftaranRumah from "pages/PendaftaranDanaRumah";
 import PendaftaranHaji from "pages/PendaftaranDanaHaji";
+import PengajuanDanaMobil from "pages/PengajuanDanaMobil";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -58,6 +59,11 @@ function App() {
             exact
             path="/pendaftarandanahaji"
             component={PendaftaranHaji}
+          />
+          <Route
+            exact
+            path="/pengajuandanamobil"
+            component={PengajuanDanaMobil}
           />
         </Switch>
       </Router>
