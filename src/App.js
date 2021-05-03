@@ -11,6 +11,7 @@ import Informasi from "pages/InformasiPage";
 import TentangKami from "pages/TentangKamiPage";
 import SyaratKetentuan from "pages/SyaratKetentuanPage";
 import SimulasiDanaMobil from "pages/SimulasiDanaMobil";
+import PendaftaranMobil from "pages/PendaftaranDanaMobil";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -36,7 +37,12 @@ function App() {
           <Route exact path="/informasi" component={Informasi} />
           <Route exact path="/tentangkami" component={TentangKami} />
           <Route exact path="/syaratketentuan" component={SyaratKetentuan} />
-          <Route exact path="/simulasidanamobil" component={SimulasiDanaMobil} />
+          <Route
+            exact
+            path="/simulasidanamobil"
+            component={SimulasiDanaMobil}
+          />
+          <Route exact path="/pendaftarandanamobil" component={PendaftaranMobil} />
         </Switch>
       </Router>
     </div>
