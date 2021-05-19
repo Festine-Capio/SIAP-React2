@@ -5,7 +5,7 @@ import Link from "@material-ui/core/Link";
 import BgMobil from "assets/images/mobil.PNG";
 import Aman from "assets/images/tumbnail-image-aman.png";
 import { Accordion, Card, ListGroup, Dropdown, Button } from "react-bootstrap";
-import { FaArrowLeft } from "react-icons/fa";
+import { FaChevronRight, FaArrowLeft } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";
 import Stepper from "@material-ui/core/Stepper";
 import Step from "@material-ui/core/Step";
@@ -88,48 +88,30 @@ const PengajuanDanaMobilContent = () => {
                 <Stepper activeStep={activeStep} orientation="vertical">
                   {steps.map((label, index) => (
                     <Step key={label}>
-                      <StepLabel>{label}</StepLabel>
-                      <StepContent>
-                        <Typography>{getStepContent(index)}</Typography>
+                      <StepLabel>
                         <div className={classes.actionsContainer}>
-                          <div>
-                            <Button
-                              disabled={activeStep === 0}
-                              onClick={handleBack}
-                              className={classes.button}
-                            >
-                              Back
-                            </Button>
-                            <Button
-                              variant="contained"
-                              color="primary"
-                              onClick={handleNext}
-                              className={classes.button}
-                            >
-                              {activeStep === steps.length - 1
-                                ? "Finish"
-                                : "Next"}
-                            </Button>
+                          <div className="row">
+                            <div className="col-md-10">{label}</div>
+                            <div className="col">
+                              <FaChevronRight onClick={handleNext}>
+                                {activeStep === steps.length - 1}
+                              </FaChevronRight>
+                            </div>
+                          </div>
+                        </div>
+                      </StepLabel>
+                      <StepContent>
+                        <div className={classes.actionsContainer}>
+                          <div className="row">
+                            <div className="col">
+                              <Typography>{getStepContent(index)}</Typography>
+                            </div>
                           </div>
                         </div>
                       </StepContent>
                     </Step>
                   ))}
                 </Stepper>
-                {activeStep === steps.length && (
-                  <Paper
-                    square
-                    elevation={0}
-                    className={classes.resetContainer}
-                  >
-                    <Typography>
-                      All steps completed - you&apos;re finished
-                    </Typography>
-                    <Button onClick={handleReset} className={classes.button}>
-                      Reset
-                    </Button>
-                  </Paper>
-                )}
               </div>
             </Card.Body>
             <Card.Footer className="text-muted">Status :</Card.Footer>
