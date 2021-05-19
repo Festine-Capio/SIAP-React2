@@ -1,11 +1,25 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useContext } from "react";
+import { Link, useHistory } from "react-router-dom";
 import Background from "components/BackGround";
 import TkbMember from "components/TkbMember";
 import {Form, Button, Row, Col} from 'react-bootstrap';
+import { ProjectContext } from "context/ProjectContext";
 
 const LoginPage = () => {
-    
+  
+    const [state, dispatch] = useContext(ProjectContext);
+    console.log(state);
+
+    const [formData, setFormData] = useState({
+      email: "",
+      password: "",
+    });
+    const history = useHistory();
+    const { email, password } = formData;
+
+    const handleChange = (e) => {
+      setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
     return (
       <div className="container-fluid" style={{ height: "100vh" }}>
         <div className="row no-gutter  h-100">

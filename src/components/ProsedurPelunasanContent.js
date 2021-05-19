@@ -58,7 +58,37 @@ const ProsedurPelunasanContent = () => {
       <div className="row mt-5">
         <div className="col">
           <ol>
-            <li></li>
+            <li>
+              Anda dapat melunasi pinjaman Anda berikut bunga dan biaya-biaya
+              lainnya sebelum berakhir jangka waktu kredit, dengan ketentuan
+              akan ada perhitungan penalti dan biaya administrasi yang besarnya
+              seperti tercantum dalam Perjanjian Pembiayaan Konsumen.
+            </li>
+            <li>
+              Penentuan kewajiban tersisa akan dihitung berdasarkan bunga
+              efektif yang besarnya ekuivalen dengan bunga flat yang ditentukan
+              pada Perjanjian Pembiayaan Konsumen dalam Ikhtisar Fasilitas
+              Kredit yang telah Anda tandatangani.
+            </li>
+            <li>
+              Pelunasan dipercepat dapat dilakukan setiap hari kerja maksimal
+              pukul 12.00 waktu setempat.
+            </li>
+            <li>
+              Anda dapat menghubungi HALO BCA 1500888, untuk mendapatkan
+              estimasi jumlah pelunasan sesuai dengan tanggal yang diinginkan,
+              prosedur, dan tata cara pelunasan dengan lengkap.
+            </li>
+            <li>
+              Jika terdapat tunggakan maka pelunasan dipercepat akan dikenakan
+              denda keterlambatan dan biaya pengamanan barang jaminan yang
+              besarnya sesuai dengan kebijakan di BCA FINANCE.
+            </li>
+            <li>
+              Pembayaran yang dilakukan melalui bank non BCA/RTGS, dana efektif
+              kami terima adalah H+1.
+            </li>
+          
           </ol>
         </div>
       </div>
