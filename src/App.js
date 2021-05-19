@@ -16,6 +16,8 @@ import PendaftaranRumah from "pages/PendaftaranDanaRumah";
 import PendaftaranHaji from "pages/PendaftaranDanaHaji";
 import PengajuanDanaMobil from "pages/PengajuanDanaMobil";
 import JadwalMobil from "pages/JadwalAngsuranMobil";
+import DokumenNasabah from "pages/DokumenNasabahPage";
+import ProsedurPelunasan from "pages/ProsedurPelunasanPage";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -67,6 +69,8 @@ function App() {
             component={PengajuanDanaMobil}
           />
           <Route exact path="/jadwalmobil" component={JadwalMobil} />
+          <Route exact path="/dokumen" component={DokumenNasabah} />
+          <Route exact path="/prosedurpelunasan" component={ProsedurPelunasan} />
         </Switch>
       </Router>
     </div>

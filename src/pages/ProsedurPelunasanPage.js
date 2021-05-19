@@ -3,7 +3,7 @@ import SideBar from "components/SideBar";
 import Icon from "assets/images/search.png";
 import NavBar2 from "components/NavbarBorrow";
 import { Breadcrumb } from "react-bootstrap";
-import Dokumen from "components/DokumenNasabahContent";
+import PelunasanContent from "components/ProsedurPelunasanContent";
 const DokumenNasabahPage = () => {
   return (
     <div className="row">
@@ -16,7 +16,7 @@ const DokumenNasabahPage = () => {
           <div className="row mt-4 ml-1 mb-5">
             <bigcard>
               <div className="section-space32">
-                <Dokumen/>
+                <PelunasanContent/>
               </div>
             </bigcard>
           </div>
