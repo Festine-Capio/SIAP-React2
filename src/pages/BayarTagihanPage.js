@@ -3,8 +3,8 @@ import SideBar from "components/SideBar";
 import Icon from "assets/images/search.png";
 import NavBar2 from "components/NavbarBorrow";
 import { Breadcrumb } from "react-bootstrap";
-import Dokumen from "components/DokumenNasabahContent";
-const DokumenNasabahPage = () => {
+import BayarTagihan from "components/BayarTagihanContent";
+const BayarTagihanPage = () => {
   return (
     <div className="row">
       <div className="col">
@@ -16,7 +16,7 @@ const DokumenNasabahPage = () => {
           <div className="row mt-4 ml-1 mb-5">
             <bigcard>
               <div className="section-space32">
-                <Dokumen />
+                <BayarTagihan />
               </div>
             </bigcard>
           </div>
@@ -25,4 +25,4 @@ const DokumenNasabahPage = () => {
     </div>
   );
 };
-export default DokumenNasabahPage;
+export default BayarTagihanPage;

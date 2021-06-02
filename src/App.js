@@ -19,6 +19,9 @@ import JadwalMobil from "pages/JadwalAngsuranMobil";
 import DokumenNasabah from "pages/DokumenNasabahPage";
 import ProsedurPelunasan from "pages/ProsedurPelunasanPage";
 import SimulasiPelunasan from "pages/SimulasiPelunasanPage";
+import BayarTagihan from "pages/BayarTagihanPage";
+import Pengajuan from "pages/PenganjuanPage";
+import HomeBorrower from "pages/HomeBorrower";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -81,6 +84,9 @@ function App() {
             path="/simulasipelunasan"
             component={SimulasiPelunasan}
           />
+          <Route exact path="/bayartagihan" component={BayarTagihan} />
+          <Route exact path="/pengajuan" component={Pengajuan} />
+          <Route exact path="/homeborrower" component={HomeBorrower} />
         </Switch>
       </Router>
     </div>

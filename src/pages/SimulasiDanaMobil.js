@@ -18,11 +18,13 @@ const SyaratKetentuanPage = () => {
         <div className="container">
           <NavBar2 />
           <div className="row mt-4 ml-1 mb-5">
-            <bigcard2>
-              <div className="section-space32">
-                <SimulasiForm />
-              </div>
-            </bigcard2>
+            <div className="col">
+              <bigcard>
+                <div className="section-space32">
+                  <SimulasiForm />
+                </div>
+              </bigcard>
+            </div>
           </div>
         </div>
       </div>

@@ -1,14 +1,11 @@
 import React from "react";
 import SideBar from "components/SideBar";
 import Icon from "assets/images/search.png";
-import NavBar2 from "components/NavbarBorrow"; 
-import {
- 
-  Breadcrumb,
-} from "react-bootstrap";
-import SyaratKetentuanContent from "components/SyaratKetentuanContent";
-
-const SyaratKetentuanPage = () => {
+import NavBar2 from "components/NavbarBorrow";
+import { Breadcrumb } from "react-bootstrap";
+import PengajuanContent from "components/PengajuanContent";
+import Investasi from "assets/images/investasi_3x.png";
+const PengajuanPage = () => {
   return (
     <div className="row">
       <div className="col">
@@ -19,9 +16,9 @@ const SyaratKetentuanPage = () => {
           <NavBar2 />
           <div className="row mt-4 ml-1 mb-5">
             <bigcard>
-            
-                <SyaratKetentuanContent />
-           
+              <div className="section-space32">
+                <PengajuanContent />
+              </div>
             </bigcard>
           </div>
         </div>
@@ -29,4 +26,4 @@ const SyaratKetentuanPage = () => {
     </div>
   );
 };
-export default SyaratKetentuanPage;
+export default PengajuanPage;
