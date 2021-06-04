@@ -42,6 +42,13 @@ const HomeBorrower = () => {
               </p>
             </div>
           </div>
+          <div className="row">
+            <div className="col">
+              <button type="button" class="btn btn-primary">
+                Daftar Sekarang juga
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

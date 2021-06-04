@@ -1,15 +1,10 @@
 import React from "react";
 import SideBar from "components/SideBar";
 import Icon from "assets/images/search.png";
-import NavBar2 from "components/NavbarBorrow"; 
-import {
- 
-  Breadcrumb,
-} from "react-bootstrap";
-import SimulasiForm from "components/FormSimulasi";
-import JadwalAngsuranMobilContent from "components/JadwalAngsuranMobilContent";
-
-const SyaratKetentuanPage = () => {
+import NavBar2 from "components/NavbarBorrow";
+import { Breadcrumb } from "react-bootstrap";
+import DaftarForm from "components/DaftarDanaRumahForm";
+const PendaftaranSiapDanaRumah = () => {
   return (
     <div className="row">
       <div className="col">
@@ -21,7 +16,7 @@ const SyaratKetentuanPage = () => {
           <div className="row mt-4 ml-1 mb-5">
             <bigcard>
               <div className="section-space32">
-                <SimulasiForm />
+                <DaftarForm />
               </div>
             </bigcard>
           </div>
@@ -30,4 +25,4 @@ const SyaratKetentuanPage = () => {
     </div>
   );
 };
-export default SyaratKetentuanPage;
+export default PendaftaranSiapDanaRumah;

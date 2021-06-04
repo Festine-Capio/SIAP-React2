@@ -24,6 +24,9 @@ import Pengajuan from "pages/PenganjuanPage";
 import HomeBorrower from "pages/HomeBorrower";
 import LandingPageRumah from "pages/LandingPageRumah";
 import DetailBerita from "pages/DetailBeritaPage";
+import PromoPage from "pages/PromoPage";
+import HasilSimulasi from "pages/HasilSimulasiPage";
+import SimulasiDanaMobilForm from "pages/SimulasiDanaMobiFormPage";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -91,6 +94,13 @@ function App() {
           <Route exact path="/pengajuan" component={Pengajuan} />
           <Route exact path="/homeborrower" component={HomeBorrower} />
           <Route exact path="/detailberita" component={DetailBerita} />
+          <Route exact path="/promo" component={PromoPage} />
+          <Route exact path="/hasilsimulasi" component={HasilSimulasi} />
+          <Route
+            exact
+            path="/simulasidanamobilform"
+            component={SimulasiDanaMobilForm}
+          />
         </Switch>
       </Router>
     </div>

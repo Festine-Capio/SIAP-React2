@@ -12,10 +12,14 @@ const ProdukSiap = () => {
   return (
     <>
       <div className="row mt-5">
-        <h6>Produk SIAP</h6>
+        <div className="col">
+          <h6>Produk SIAP</h6>
+        </div>
       </div>
       <div className="row">
-        <p>Temukan Info menarik Tentang SIAP</p>
+        <div className="col">
+          <p>Temukan Info menarik Tentang SIAP</p>
+        </div>
       </div>
 
       <div className="row d-flex justify-content-center mt-2">

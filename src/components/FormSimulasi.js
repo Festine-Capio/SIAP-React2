@@ -33,161 +33,94 @@ const FormSimulasi = () => {
       </div>
       <div className="row mt-4 ml-1">
         <div className="col">
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Wilayah domisili</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-            <div className="row mt-3">
-              <div className="col">
-                <label for="exampleFormControlSelect1">Kota domisili</label>
-              </div>
-            </div>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-            <div className="row mt-3">
-              <div className="col">
-                <label for="exampleFormControlSelect1">Plat Nomor</label>
-              </div>
-            </div>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-            <div className="row mt-3">
-              <div className="col">
-                <label for="exampleFormControlSelect1">Merek kendaraan</label>
-              </div>
-            </div>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-            <div className="row mt-3">
-              <div className="col">
-                <label for="exampleFormControlSelect1">Model Mobil</label>
-              </div>
-            </div>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-          </div>
-        </div>
-        <div className="col">
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">tahun Kendaraan</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-            <div className="row mt-3">
-              <div className="col">
-                <label for="exampleFormControlSelect1">Tipe Mobil</label>
-              </div>
-            </div>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-            <div className="row mt-3">
-              <div className="col">
-                <label for="exampleFormControlSelect1">Atas Nama BPKB</label>
-              </div>
-            </div>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-            <div className="row mt-3">
-              <div className="col">
-                <label for="exampleFormControlSelect1">Asuransi</label>
-              </div>
-            </div>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Pilih Wilayah</option>
-              <option>wilayah 2</option>
-              <option>wilayah 3</option>
-              <option>wilayah 4</option>
-              <option>wilayah 5</option>
-            </select>
-          </div>
-        </div>
-        <div className="col">
           <div className="row">
             <div className="col">
-              <p>Pengajuan pokok pinjaman </p>
+              <p>Harga Kendaraan</p>
             </div>
-          </div>
-          <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="inputGroup-sizing-default">
-                Rp
-              </span>
-            </div>
-            <input
-              type="text"
-              class="form-control"
-              aria-label="Default"
-              aria-describedby="inputGroup-sizing-default"
-            ></input>
           </div>
           <div className="row">
             <div className="col">
-              <Card>
-                <Card.Body>
-                  <div className="row">
-                    <div className="col">
-                      <p>*Maksimal pokok pembiayaan berdasarkan data asset</p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col">
-                      <h5>Rp. 0</h5>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Harga Kendaraan"
+              ></input>
             </div>
           </div>
           <div className="row mt-3">
             <div className="col">
-              <Button variant="secondary" size="lg" block>
-                Block level button
-              </Button>
-              <Button variant="outline-secondary" size="lg" block>
-                Block level button
-              </Button>
+              <label for="exampleFormControlSelect1">Tahun Kendaraan</label>
+            </div>
+          </div>
+
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Pilih Tahun</option>
+            <option>2000</option>
+            <option>2000</option>
+            <option>2000</option>
+            <option>2000</option>
+          </select>
+          <div className="row mt-3">
+            <div className="col">
+              <label for="exampleFormControlSelect1">Asuransi</label>
+            </div>
+          </div>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Pilih Wilayah</option>
+            <option>wilayah 2</option>
+            <option>wilayah 3</option>
+            <option>wilayah 4</option>
+            <option>wilayah 5</option>
+          </select>
+        </div>
+        <div className="col">
+          <div className="row">
+            <div className="col">
+              <p>Harga Kendaraan</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Harga Kendaraan"
+              ></input>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col">
+              <label for="exampleFormControlSelect1">Jangka Waktu</label>
+            </div>
+          </div>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Jangka Waktu</option>
+            <option>waktu</option>
+            <option>waktu </option>
+            <option>waktu </option>
+          </select>
+          <div className="row">
+            <div className="col">
+              <p>Area Nomor Polisi</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Area Nomor Polisi"
+              ></input>
             </div>
           </div>
         </div>
+      </div>
+      <div className="row d-flex justify-content-center mt-5">
+       
+          <button type="button" class="btn btn-primary">
+            Kalkulasi
+          </button>
+       
       </div>
     </>
   );

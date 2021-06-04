@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Icon from "assets/images/search.png";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Modal } from "react-bootstrap";
 import Investasi from "assets/images/investasi2.png";
 import Dana from "assets/images/dana_tunai_3x.png";
 import Mobil from "assets/images/mobil_3x.png";
@@ -9,7 +9,14 @@ import SiapRumah from "assets/images/rumah_3x.png";
 import Simulasi from "assets/images/product-simulasi@3x.png";
 import Tagihan from "assets/images/tagihan@3x.png";
 import Lunas from "assets/images/pelunasaan_3x.png";
+
+import Rumah from "assets/images/rumah_3x.png";
+import SimulasiPelunasanModal from "components/SimulasiPelunasanModal";
 const WidgetSiap = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <>
       <div className="row mt-5">
@@ -24,7 +31,6 @@ const WidgetSiap = () => {
           <div
             className="card"
             style={{
-           
               backgroundColor: "#f4f5f7",
               borderRadius: "10px",
               boxShadow: "5px 10px 30px 0 #bdc3e0",
@@ -32,7 +38,7 @@ const WidgetSiap = () => {
           >
             <div className="card-body">
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4" onClick={handleShow}>
                   <div className="row justify-content-center ml-2 mr-2 mt-0">
                     <img
                       src={Simulasi}
@@ -82,6 +88,31 @@ const WidgetSiap = () => {
           </div>
         </div>
       </div>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Body>
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-10">
+              <SimulasiPelunasanModal />
+            </div>
+          </div>
+          <div className="row d-flex justify-content-center mt-5">
+            <div className="col-md-10">
+              <button
+                type="button"
+                class="btn btn-primary btn-block"
+                onClick={handleClose}
+              >
+                Selanjutnya
+              </button>
+            </div>
+          </div>
+        </Modal.Body>
+      </Modal>
     </>
   );
 };
