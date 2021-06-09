@@ -1,11 +1,10 @@
 import React from "react";
 import SideBar from "components/SideBar";
-
+import Icon from "assets/images/search.png";
 import NavBar2 from "components/NavbarBorrow";
-
-import HasilSimulasiContent from "components/HasilSimulasiContent";
-import Stepper from "components/StepperDanaMobil";
-const HasilSimulasiPage = () => {
+import { Breadcrumb } from "react-bootstrap";
+import DanaMobilFormContent from "components/DanaMobilFormContent";
+const DanaMobilForm = () => {
   return (
     <div className="row">
       <div className="col">
@@ -17,9 +16,7 @@ const HasilSimulasiPage = () => {
           <div className="row mt-4 ml-1 mb-5">
             <bigcard>
               <div className="section-space32">
-                <div className="row">
-                    <Stepper/>
-                </div>
+                <DanaMobilFormContent />
               </div>
             </bigcard>
           </div>
@@ -28,4 +25,4 @@ const HasilSimulasiPage = () => {
     </div>
   );
 };
-export default HasilSimulasiPage;
+export default DanaMobilForm;

@@ -1,11 +1,7 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
-import Breadcrumbs from "@material-ui/core/Breadcrumbs";
-import Link from "@material-ui/core/Link";
-import Mobil from "assets/images/mobil_3x.png";
-import Aman from "assets/images/tumbnail-image-aman.png";
-import { Accordion, Card, ListGroup, Dropdown, Button } from "react-bootstrap";
+
 import { FaArrowLeft } from "react-icons/fa";
+import Rumah from "assets/images/rumah_3x.png";
 function handleClick(event) {
   event.preventDefault();
   console.info("You clicked a breadcrumb.");
@@ -14,217 +10,65 @@ const FormSimulasi = () => {
   return (
     <>
       <div className="row">
-        <div className="col-sm-2">
+        <div className="col-sm-1">
           <FaArrowLeft className="arrow-left" />
         </div>
         <div className="col">
           <div className="row">
-            <h4>Pendaftaran SIAP Dana Mobil</h4>
+            <h4>Pendaftaran SIAP Dana Rumah</h4>
           </div>
           <div className="row">
             <p>Form untuk mengajukan pendanaan</p>
           </div>
         </div>
-        
-      </div>
-      <div className="row mt-4 ml-1">
-        <div className="col-md-8">
-          <div className="row mt-5">
-            <div className="col">
-              <h3>01. Data Aset</h3>
-            </div>
-          </div>
-          
-        
-          <div className="row mt-5">
-            <div className="col">
-              <h3>02. Verifikasi Data</h3>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <p>Nama Lengkap</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Nama Lengkap"
-              ></input>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <p>Tempat Lahir</p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Tempat Lahir"
-              ></input>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <p>Tanggal Lahir</p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <div class="form-group row">
-                <div class="col-10">
-                  <input
-                    class="form-control"
-                    type="date"
-                    value="2011-08-19"
-                    id="example-date-input"
-                  ></input>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row mt-5">
-            <div className="col">
-              <h3>03. Data Diri dan Pekerjaan</h3>
-            </div>
-          </div>
-
-          <div className="row mt-2">
-            <div className="col">
-              <p>Nama Lengkap</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Nama Lengkap"
-              ></input>
-            </div>
-          </div>
-
-          <div className="row mt-2">
-            <div className="col">
-              <p>Nomor KTP</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Nomor KTP anda"
-              ></input>
-            </div>
-          </div>
-
-          <div className="row mt-2">
-            <div className="col">
-              <p>Nama Lengkap</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Nama Lengkap"
-              ></input>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <p>Email</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Masukan email Anda"
-              ></input>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <p>Nama Ibu Kandung</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Nama Ibu Kandung"
-              ></input>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <p>Tempat Lahir</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Tempat Lahir"
-              ></input>
-            </div>
-          </div>
-
-          <div className="row mt-2">
-            <div className="col">
-              <p>Pekerjaan</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Pekerjaan"
-              ></input>
-            </div>
-          </div>
-
-          <div className="row mt-2">
-            <div className="col">
-              <p>Pendapatan Perbulan</p>
-            </div>
-          </div>
-          <div className="row mt-2">
-            <div className="col">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Pendapatan Perbulan"
-              ></input>
-            </div>
-          </div>
-
-          <div className="row mt-5">
-            <div className="col">
-              <h3>04. Alamat dan Survey</h3>
-            </div>
-          </div>
-          <div className="row mt-3">
-            <div className="col">
-              <Button variant="primary" size="lg" block>
-                Proses Pendaftaran
-              </Button>
-            </div>
+        <div className="col">
+          <div className="row d-flex justify-content-end">
+            <img src={Rumah} alt="" className="rumah" />
           </div>
         </div>
+      </div>
+
+      <div className="row mt-4 ml-1 d-flex justify-content-center">
+        <div className="col-md-5">
+          <div className="row">
+            <div className="col">
+              <p>Pengajuan pokok pinjaman </p>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Rp
+              </span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Default"
+              aria-describedby="inputGroup-sizing-default"
+              placeholder="Masukan jumlah nominal"
+            />
+          </div>
+          <div className="row">
+            <div className="col">
+              <p>Pengajuan pokok pinjaman </p>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Pilih Tahun</option>
+              <option>2000</option>
+              <option>2000</option>
+              <option>2000</option>
+              <option>2000</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div className="row d-flex justify-content-center mt-5">
+        <button type="button" class="btn btn-primary">
+          Kalkulasi
+        </button>
       </div>
     </>
   );

@@ -26,7 +26,13 @@ import LandingPageRumah from "pages/LandingPageRumah";
 import DetailBerita from "pages/DetailBeritaPage";
 import PromoPage from "pages/PromoPage";
 import HasilSimulasi from "pages/HasilSimulasiPage";
-import SimulasiDanaMobilForm from "pages/SimulasiDanaMobiFormPage";
+import SimulasiDanaMobilForm from "pages/SimulasiDanaMobilFormPage";
+import SimulasiDanaRumahForm from "pages/SimulasiDanaRumahFormPage";
+import DaftarDanaRumah from "pages/PendaftaranDanaRumah";
+import HasilSimulasiDanaRumah from "pages/HasilSimulasiDanaRumah";
+import SiapDanaMobilForm from "pages/DanaMobilForm";
+import HasilSimulasiSiapDanaMobil from "pages/HasilSimulasiSiapDanaMobil";
+import DaftarDanaMobil from "pages/DaftarSiapDanaMobil";
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -100,6 +106,32 @@ function App() {
             exact
             path="/simulasidanamobilform"
             component={SimulasiDanaMobilForm}
+          />
+          <Route
+            exact
+            path="/simulasidanarumahform"
+            component={SimulasiDanaRumahForm}
+          />
+          <Route exact path="/daftardanarumah" component={DaftarDanaRumah} />
+          <Route
+            exact
+            path="/hasilsimulasirumah"
+            component={HasilSimulasiDanaRumah}
+          />
+          <Route
+            exact
+            path="/siapdanamobilform"
+            component={SiapDanaMobilForm}
+          />
+          <Route
+            exact
+            path="/hasilsimulasisiapdanamobil"
+            component={HasilSimulasiSiapDanaMobil}
+          />
+          <Route
+            exact
+            path="/daftardanamobil"
+            component={DaftarDanaMobil}
           />
         </Switch>
       </Router>

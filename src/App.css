@@ -155,6 +155,16 @@ width: 120%;
   height: 69px;
   align-items: center;
   }
+  .rumah{
+     width: 92px;
+  height: 92px;
+  }
+.simulasi-card{
+  background-color: #dfdfe5;
+}
+.simulasi-table{
+  background-color: white;
+}
   
 
 

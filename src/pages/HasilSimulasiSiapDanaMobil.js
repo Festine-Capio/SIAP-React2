@@ -3,20 +3,22 @@ import SideBar from "components/SideBar";
 import Icon from "assets/images/search.png";
 import NavBar2 from "components/NavbarBorrow";
 import { Breadcrumb } from "react-bootstrap";
-import DaftarForm from "components/DaftarDanaRumahForm";
-const PendaftaranDanaMobil = () => {
+import SimulasiForm from "components/FormSimulasi";
+import JadwalAngsuranMobilContent from "components/JadwalAngsuranMobilContent";
+import HasilSimulasiContent from "components/HasilSiapDanaMobilContent";
+const HasilSimulasiSiapDanaMobil = () => {
   return (
     <div className="row">
       <div className="col">
         <SideBar />
-      </div> 
+      </div>
       <div className="col-lg-11">
         <div className="container">
           <NavBar2 />
           <div className="row mt-4 ml-1 mb-5">
             <bigcard>
               <div className="section-space32">
-                <DaftarForm />
+                <HasilSimulasiContent />
               </div>
             </bigcard>
           </div>
@@ -25,4 +27,4 @@ const PendaftaranDanaMobil = () => {
     </div>
   );
 };
-export default PendaftaranDanaMobil;
+export default HasilSimulasiSiapDanaMobil;
