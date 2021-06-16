@@ -4,51 +4,64 @@
   box-sizing: border-box;
 }
 
-.bg-login{
+.bg-login {
   background-color: #0c135f;
   height: 100%;
   width: 300px;
- 
-    left: 0;
-    position: fixed;
-    color: #f6fbff;
-}
-.top-bar { padding-top: 10px; padding-bottom: 10px; background-color: #f6fbff; font-size: 12px; color: black; font-weight: 500; text-transform: uppercase;  left: 0}
-.top-text { padding-left: 20px; line-height: 1.6; }
-.top-text a { color: black; }
-.top-text a:hover { color: black; }
 
-.siap-icon{
-  margin-top: 100px;
-  
+  left: 0;
+  position: fixed;
+  color: #f6fbff;
 }
-.icon-color{
+.top-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f6fbff;
+  font-size: 12px;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+  left: 0;
+}
+.top-text {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+.top-text a {
+  color: black;
+}
+.top-text a:hover {
+  color: black;
+}
+
+.siap-icon {
+  margin-top: 100px;
+}
+.icon-color {
   width: 114px;
   height: 25px;
   margin: 12px 260px 11px 0;
   padding: 0 0 1px;
   object-fit: contain;
 }
-.note{
+.note {
   margin-top: 327px;
   font-size: 12px;
   margin: 327px 7px 24px;
 }
 
-.copy{
-   margin-top: 60px;
+.copy {
+  margin-top: 60px;
 }
-.member{
+.member {
   margin-top: 600px;
 }
 .otp {
- 
   height: 3rem;
   margin: 0 1rem;
   font-size: 2rem;
   text-align: center;
   border-radius: 4px;
-  
 }
 input.form-control,
 textarea.form-control,
@@ -57,9 +70,8 @@ select.form-control {
   height: 56px;
 }
 .foo1 {
- 
   display: block;
- left: 0;
+  left: 0;
   width: 1366px;
   height: 610px;
   margin: 69px 0 0;
@@ -75,98 +87,142 @@ select.form-control {
   opacity: 0;
   background-color: #d8d8d8;
 }
-.logo-ojk{
+.logo-ojk {
   width: 79px;
   height: 32px;
   margin: 0 0px 9px 0px;
 }
-.banner{
-
+.banner {
   display: block;
- width: 1515px;
+  width: 1515px;
 }
-.banner2{
-
+.banner2 {
   display: block;
-width: 120%;
- 
+  width: 120%;
+
   object-fit: contain;
   border-radius: 10px;
 }
 
- .list-grid-prof{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 15px;
-    row-gap: 1em;
-  
-    top: 600px;
-    
+.list-grid-prof {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15px;
+  row-gap: 1em;
+
+  top: 600px;
+
   width: 110px;
   height: 77px;
 
   object-fit: contain;
   border-radius: 8px;
-
-  }
-  .list-grid-prof p{
-    font-family: Avenir;
+}
+.list-grid-prof p {
+  font-family: Avenir;
   font-size: 12px;
   color: #646464;
   margin-top: 8px;
-  }
-  .detailpic{
-     width: 672px;
+}
+.detailpic {
+  width: 672px;
   height: 379px;
-  }
-  .detail-text{
-     font-size: 14px;
+}
+.detail-text {
+  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.79;
   letter-spacing: normal;
   text-align: justify;
-  }
+}
 
+.list-grid-prof2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15px;
+  row-gap: 1em;
 
-  .list-grid-prof2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 15px;
-    row-gap: 1em;
-  
-    top: 600px;
-    
-   width: 407px;
+  top: 600px;
+
+  width: 407px;
   height: 228px;
   object-fit: contain;
   border-radius: 8px;
-
-  }
-  .list-grid-prof2 p{
-    font-family: Avenir;
+}
+.list-grid-prof2 p {
+  font-family: Avenir;
   font-size: 12px;
   color: #646464;
   margin-top: 8px;
-  }
-  .mobil-lunas{
-     width: 69px;
+}
+.mobil-lunas {
+  width: 69px;
   height: 69px;
   align-items: center;
-  }
-  .rumah{
-     width: 92px;
+}
+.rumah {
+  width: 92px;
   height: 92px;
-  }
-.simulasi-card{
+}
+.simulasi-card {
   background-color: #dfdfe5;
 }
-.simulasi-table{
+.simulasi-table {
   background-color: white;
 }
-  
 
+/* Siap Dana Haji */
+.bigcard {
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  padding: 20px;
+}
+.bigcard h4,
+h2 {
+  color: #0c135f;
+}
+.bigcard img {
+  width: 600px;
+}
+.card-header {
+  background-color: #fff;
+  font-weight: 600;
+  color: #0c135f;
+}
+.btn-dana {
+  background-color: #0c135f;
+  color: #fff;
+  border-radius: 10px;
+}
+ul li {
+  list-style: none;
+}
+.FaAngleUp {
+  padding-left: 100px;
+}
+/*Akhir Siap Dana Haji */
 
+/* Siap Dana Haji Form */
+.header-bigcard {
+  margin-left: -60px;
+}
+.select h5 {
+  color: #0c135f;
+  padding-bottom: 30px;
+}
+.select Label {
+  color: #0c135f;
+  font-weight: 600;
+}
+.btn-next {
+  background-color: #0c135f;
+  color: #fff;
+  padding: 10px 0px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
 
-
+/* AkhirSiap Dana Haji Form */
