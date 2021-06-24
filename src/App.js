@@ -36,6 +36,11 @@ import DaftarDanaMobil from "pages/DaftarSiapDanaMobil";
 import SiapDanaHaji from 'pages/SiapDanaHaji'
 import SiapDanaHajiForm from 'pages/SiapDanaHajiForm'
 import SiapDanaHajiFormTwo from 'pages/SiapDanaHajiFormTwo'
+import SiapDanaHajiDataDiri from 'pages/SiapDanaHajiDataDiri'
+import SiapDanaHajiFormTree from 'pages/SiapDanaHajiFormTree'
+import SiapDanaHajiDaftarPeserta from 'pages/SiapDanaHajiDaftarPeserta'
+
+
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -151,6 +156,21 @@ function App() {
           exact 
           path="/siapdanahajiformtwo" 
           component={SiapDanaHajiFormTwo}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajidatadiri" 
+          component={SiapDanaHajiDataDiri}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajiformtree" 
+          component={SiapDanaHajiFormTree}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajidaftarpeserta" 
+          component={SiapDanaHajiDaftarPeserta}/>
 
         </Switch>
       </Router>

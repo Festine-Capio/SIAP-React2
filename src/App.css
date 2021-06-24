@@ -13,6 +13,7 @@
   position: fixed;
   color: #f6fbff;
 }
+
 .top-bar {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -23,13 +24,16 @@
   text-transform: uppercase;
   left: 0;
 }
+
 .top-text {
   padding-left: 20px;
   line-height: 1.6;
 }
+
 .top-text a {
   color: black;
 }
+
 .top-text a:hover {
   color: black;
 }
@@ -37,6 +41,7 @@
 .siap-icon {
   margin-top: 100px;
 }
+
 .icon-color {
   width: 114px;
   height: 25px;
@@ -44,6 +49,7 @@
   padding: 0 0 1px;
   object-fit: contain;
 }
+
 .note {
   margin-top: 327px;
   font-size: 12px;
@@ -53,9 +59,11 @@
 .copy {
   margin-top: 60px;
 }
+
 .member {
   margin-top: 600px;
 }
+
 .otp {
   height: 3rem;
   margin: 0 1rem;
@@ -63,12 +71,14 @@
   text-align: center;
   border-radius: 4px;
 }
+
 input.form-control,
 textarea.form-control,
 div.form-control,
 select.form-control {
   height: 56px;
 }
+
 .foo1 {
   display: block;
   left: 0;
@@ -79,6 +89,7 @@ select.form-control {
   opacity: 0;
   background-color: #0c135f;
 }
+
 .Mask {
   width: 1366px;
   height: 610px;
@@ -87,15 +98,18 @@ select.form-control {
   opacity: 0;
   background-color: #d8d8d8;
 }
+
 .logo-ojk {
   width: 79px;
   height: 32px;
   margin: 0 0px 9px 0px;
 }
+
 .banner {
   display: block;
   width: 1515px;
 }
+
 .banner2 {
   display: block;
   width: 120%;
@@ -118,16 +132,19 @@ select.form-control {
   object-fit: contain;
   border-radius: 8px;
 }
+
 .list-grid-prof p {
   font-family: Avenir;
   font-size: 12px;
   color: #646464;
   margin-top: 8px;
 }
+
 .detailpic {
   width: 672px;
   height: 379px;
 }
+
 .detail-text {
   font-size: 14px;
   font-weight: normal;
@@ -151,24 +168,29 @@ select.form-control {
   object-fit: contain;
   border-radius: 8px;
 }
+
 .list-grid-prof2 p {
   font-family: Avenir;
   font-size: 12px;
   color: #646464;
   margin-top: 8px;
 }
+
 .mobil-lunas {
   width: 69px;
   height: 69px;
   align-items: center;
 }
+
 .rumah {
   width: 92px;
   height: 92px;
 }
+
 .simulasi-card {
   background-color: #dfdfe5;
 }
+
 .simulasi-table {
   background-color: white;
 }
@@ -179,43 +201,53 @@ select.form-control {
   border-radius: 10px;
   padding: 20px;
 }
+
 .bigcard h4,
 h2 {
   color: #0c135f;
 }
+
 .bigcard img {
   width: 600px;
 }
+
 .card-header {
   background-color: #fff;
   font-weight: 600;
   color: #0c135f;
 }
+
 .btn-dana {
   background-color: #0c135f;
   color: #fff;
   border-radius: 10px;
 }
+
 ul li {
   list-style: none;
 }
+
 .FaAngleUp {
   padding-left: 100px;
 }
+
 /*Akhir Siap Dana Haji */
 
 /* Siap Dana Haji Form */
 .header-bigcard {
   margin-left: -60px;
 }
+
 .select h5 {
   color: #0c135f;
   padding-bottom: 30px;
 }
+
 .select Label {
   color: #0c135f;
-  font-weight: 600;
+  font-weight: 500;
 }
+
 .btn-next {
   background-color: #0c135f;
   color: #fff;
@@ -225,4 +257,92 @@ ul li {
   margin-bottom: 30px;
 }
 
+.btn-back {
+  border: 2px solid #a0a1a2;
+  background-color: #f4f5f7;
+  color: #c0c1c2;
+  padding: 10px 0px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
 /* AkhirSiap Dana Haji Form */
+
+/* Data Diri */
+.form-group {
+  color: #0c135f;
+  font-size: 14px;
+}
+
+.form-group input {
+  height: 47px;
+  border-radius: 8px;
+  padding: 20px 10px;
+  border: none;
+  font-size: 14px;
+}
+
+#exampleFormControlSelect1 {
+  height: 47px;
+  border: none;
+  font-size: 14px;
+}
+
+.card {
+  border: none;
+}
+
+.card-footer {
+  background-color: #fff;
+}
+
+label {
+  color: #0c135f;
+}
+
+#status {
+  margin-left: -20px;
+  color: #0c135f;
+}
+
+.location span {
+  color: #0c135f;
+}
+
+.card-location h5 {
+  color: #0c135f;
+  font-weight: 600;
+}
+
+#jenis-pekerjaan {
+  margin-left: -15px;
+}
+
+.regist h4,
+p {
+  color: #0c135f;
+  font-weight: 600;
+}
+.dokument {
+  border: 2px dashed #0c135f;
+}
+.dokument img {
+  padding: 15px 20px;
+}
+.dokument h5 {
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.dokument span {
+  font-size: 12px;
+  color: #b3afaf;
+}
+table {
+  border-radius: 10px;
+}
+table tr th {
+  border: none;
+}
+/* Akhir Data Diri */

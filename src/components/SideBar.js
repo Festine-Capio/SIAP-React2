@@ -71,14 +71,10 @@ const SideBar = () => {
         </ul>
       </div>
       <div className="row mt-4">
-        <Button
-          variant="primary"
-          active
-          block
-          style={{ width: "215px", height: "48px" }}
-        >
+        <button className="btn btn-side" style={{ backgroundColor: "#0c135f", color: "#fff", width: "215px", padding: "13px 13px" }}>
           Daftar jadi lender
-        </Button>
+        </button>
+        
       </div>
       <div className="row d-flex justify-content-center align-items-center" style={{marginTop:"188px"}}>
         <p>Syarat & ketentuan</p>
