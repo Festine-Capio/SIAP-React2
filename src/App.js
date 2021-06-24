@@ -33,12 +33,12 @@ import HasilSimulasiDanaRumah from "pages/HasilSimulasiDanaRumah";
 import SiapDanaMobilForm from "pages/DanaMobilForm";
 import HasilSimulasiSiapDanaMobil from "pages/HasilSimulasiSiapDanaMobil";
 import DaftarDanaMobil from "pages/DaftarSiapDanaMobil";
-import SiapDanaHaji from 'pages/SiapDanaHaji'
-import SiapDanaHajiForm from 'pages/SiapDanaHajiForm'
-import SiapDanaHajiFormTwo from 'pages/SiapDanaHajiFormTwo'
-import SiapDanaHajiDataDiri from 'pages/SiapDanaHajiDataDiri'
-import SiapDanaHajiFormTree from 'pages/SiapDanaHajiFormTree'
-import SiapDanaHajiDaftarPeserta from 'pages/SiapDanaHajiDaftarPeserta'
+import SiapDanaHaji from 'pages/SiapDanaHaji';
+import SiapDanaHajiForm from 'pages/SiapDanaHajiForm';
+import SiapDanaHajiFormTwo from 'pages/SiapDanaHajiFormTwo';
+import SiapDanaHajiDataDiri from 'pages/SiapDanaHajiDataDiri';
+import SiapDanaHajiFormTree from 'pages/SiapDanaHajiFormTree';
+import SiapDanaHajiDaftarPeserta from 'pages/SiapDanaHajiDaftarPeserta';
 
 
 import "assets/scss/style.scss";
