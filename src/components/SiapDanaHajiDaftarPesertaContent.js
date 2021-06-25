@@ -1,16 +1,26 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
+import useState from 'react-hook-use-state';
 import { FaArrowLeft } from "react-icons/fa";
 import { FaPencilAlt } from "react-icons/fa";
 import { FaTrashAlt } from "react-icons/fa";
 import { FaPlusCircle } from "react-icons/fa";
+import Berhasil from "assets/images/berhasil_2021-06-25/berhasil.png";
 
-function handleClick(event) {
-  event.preventDefault();
-  console.info("You clicked a breadcrumb.");
-}
+
+// function handleClick(event) {
+//   event.preventDefault();
+//   console.info("You clicked a breadcrumb.");
+// }
 
 const SiapDanaHajiFormContent = () => {
+
+
+    // const [show, setShow] = useState(false);
+    const [show, setShow] = useState(0);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
         <div className="bigcard mt-3">
             <div className="row">
@@ -21,6 +31,7 @@ const SiapDanaHajiFormContent = () => {
                     <h4>Pendaftaran SIAP Haji</h4>
                     <span>Form untuk melakukan pendaftaran</span>
                 </div>
+                <div className="col"></div>
             </div> 
 
             <div className="row mt-3">
@@ -106,14 +117,47 @@ const SiapDanaHajiFormContent = () => {
                     </button>                  
                 </div>
                 <div className="col-4">
-                    <button className="btn btn-next btn-block" data-toggle="modal" data-target="#exampleModal">
+                    <button className="btn btn-next btn-block" onClick={handleShow}>
                         Lanjut
                     </button>
                 </div>
             </div>
-        
+
+            <Modal show={show} onHide={handleClose}>
+                <div className="row">
+                    <div className="col">
+                        <div className="card text-center">
+                        <div className="card-header pt-4 border-0">
+                            <span>Terima Kasih</span>
+                        </div>
+
+                        <div className="card-body">
+                            <img src={Berhasil} alt="" />
+
+                             <p>Pendaftaran kamu akan kami proses, tunggu verifikasi maksimal 1x24 jam untuk dapat melanjutkan proses transaksi kamu.</p>
+
+                             <div className="row justify-content-center">
+                                <div className="col-4">
+                                    <button className="btn btn-primary btn-block">
+                                        Lihat Status
+                                    </button>                  
+                                </div>
+                                <div className="col-4">
+                                    <button className="btn btn-blue btn-block" onClick={handleClose}>
+                                        Kembali
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+            </Modal>
+                
         </div>
         
     )
 };
-export default SiapDanaHajiFormContent;
+export default SiapDanaHajiFormContent; 

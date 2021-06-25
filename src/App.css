@@ -345,4 +345,10 @@ table {
 table tr th {
   border: none;
 }
+.btn-primary {
+  background-color: #0c135f;
+}
+.btn-blue {
+  border: 1px solid #0c135f;
+}
 /* Akhir Data Diri */

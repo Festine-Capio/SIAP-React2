@@ -7,6 +7,8 @@ import Benefit from "components/Benefit";
 import Foo from "components/FooterContent";
 import Portofolio from "components/Portofolio";
 import Dapatkan from "components/DapatkanPendanaan";
+
+
 const LandingPage = () => {
   return (
     <>
