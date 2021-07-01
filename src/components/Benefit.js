@@ -8,8 +8,8 @@ const Benefit = () => {
     <benefit>
       <div className="section-space80">
         <div className="container">
-          <div className="row justify-content-center">
-            <h5>Benefit</h5>
+          <div className="row benefit justify-content-center">
+            <h5 >Benefit</h5>
           </div>
           <div className="row justify-content-center">
             <h4>Hanya di SIAP Anda mendapatkan</h4>

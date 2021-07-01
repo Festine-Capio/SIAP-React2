@@ -7,6 +7,8 @@ import Benefit from "components/Benefit";
 import Foo from "components/FooterContent";
 import Portofolio from "components/Portofolio";
 import Dapatkan from "components/DapatkanPendanaan";
+import Tutorial from 'components/TutorialLandingPage';
+import Testimoni from 'components/TestimoniLandingPage';
 
 
 const LandingPage = () => {
@@ -23,12 +25,21 @@ const LandingPage = () => {
       </div>
 
       <Benefit />
-<div className="row">
-  <Portofolio/>
-</div>
-<div>
-  <Dapatkan/>
-</div>
+
+      <div className="row">
+        <Tutorial />
+      </div>
+      <div className="row">
+        <Portofolio/>
+      </div>
+
+      <div className="row">
+        <Testimoni />
+      </div>
+
+      <div>
+        <Dapatkan/>
+      </div>
       <div className="row">
         <Disclaimer />
       </div>

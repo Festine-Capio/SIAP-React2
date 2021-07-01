@@ -87,7 +87,7 @@ const Portofolio = () => {
             </Card>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row portfolio mt-5">
           <div className="col mt-5">
             <div className="row d-flex justify-content-center align-items-center">
               <h2>500</h2>

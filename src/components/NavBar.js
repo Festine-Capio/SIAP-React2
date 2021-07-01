@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
+import Indonesia from "../assets/images/language_2021-07-01/language.png";
 
 import LogoColor from "assets/images/logo-color.png";
 import LogoOjk from "assets/images/OJK_Logo.png";
@@ -50,24 +51,28 @@ const NavBar = () => {
           zIndex: "1",
         }}
       >
+        
         <Navbar.Brand href="#home">
-          <img src={LogoColor} alt="Logo" className="icon-color" />
+          <div className="container">
+            <img src={LogoColor} alt="Logo" className="icon-color" />
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto"></Nav>
+          <Nav className="text-center pr-5"></Nav>
           <Nav>
-            <Nav.Link href="#">Beranda </Nav.Link>
-            <Nav.Link eventKey={2} href="#">
+            <Nav.Link href="#" className="pr-5">Beranda </Nav.Link>
+            <Nav.Link eventKey={2} href="#" className="pr-5">
               Produk
             </Nav.Link>
-            <Nav.Link href="#">Infromasi </Nav.Link>
-            <Nav.Link href="#">tentang kami </Nav.Link>
-            <Button variant="primary" active>
-              Masuk
-            </Button>
+            <Nav.Link href="#" className="pr-5">Infromasi </Nav.Link>
+            <Nav.Link href="#" className="pr-5">tentang kami </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <Button variant="primary" active>
+              Masuk
+        </Button>
+        <img src={Indonesia} alt="" />
       </Navbar>
     </div>
   );
