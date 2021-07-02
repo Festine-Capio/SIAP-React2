@@ -5,7 +5,7 @@ const ProdukLandingPage = () => {
     return (
       <div className="container">
         <div className="row mt-5">
-          <div className="col mt-5">
+          <div className="col product mt-5">
             <h5>Produk</h5>
           </div>
         </div>
@@ -25,9 +25,7 @@ const ProdukLandingPage = () => {
               </p>
             </div>
             <div className="row">
-              <Button variant="primary" active>
-                Masuk
-              </Button>
+              <a href="" className="btn btn-primary">Selengkapnya</a>
             </div>
           </div>
           <div className="col">

@@ -4,6 +4,7 @@ import Logo from "assets/images/siap.png";
 import { FaHome } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 const SideBar = () => {
   return (
     <Nav
@@ -17,7 +18,15 @@ const SideBar = () => {
       </div>
 
       <div className="row ml-1 mt-5">
-        <div className="col"></div>
+        <div className="col-12">
+          <label htmlFor="">Jenis Akun</label>
+          <ul>
+            <li>
+              <a href="" style={{marginRight: "80px", color: "#0c135f", fontWeight: "bold"}}>Borower</a>
+              <FaAngleDown />
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="row ml-1"></div>
 
@@ -71,12 +80,15 @@ const SideBar = () => {
         </ul>
       </div>
       <div className="row mt-4">
-        <button className="btn btn-side" style={{ backgroundColor: "#0c135f", color: "#fff", width: "215px", padding: "13px 13px" }}>
+        <Button
+          active
+          block
+          style={{ width: "215px", height: "48px", backgroundColor: "#0c135f" }}
+        >
           Daftar jadi lender
-        </button>
-        
+        </Button>
       </div>
-      <div className="row d-flex justify-content-center align-items-center" style={{marginTop:"188px"}}>
+      <div className="row d-flex justify-content-center align-items-center" style={{marginTop:"18px"}}>
         <p>Syarat & ketentuan</p>
         <p>Kebijakan Privasi</p>
       </div>

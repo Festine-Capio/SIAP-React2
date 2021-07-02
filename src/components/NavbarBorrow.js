@@ -56,7 +56,6 @@ const NavBarBorrow = () => {
               <ListGroup>
                 <ListGroup.Item>Pofil</ListGroup.Item>
                 <ListGroup.Item>Keluar</ListGroup.Item>
-               
               </ListGroup>
             </Accordion.Collapse>
           </Card>

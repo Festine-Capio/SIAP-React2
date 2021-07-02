@@ -33,6 +33,14 @@ import HasilSimulasiDanaRumah from "pages/HasilSimulasiDanaRumah";
 import SiapDanaMobilForm from "pages/DanaMobilForm";
 import HasilSimulasiSiapDanaMobil from "pages/HasilSimulasiSiapDanaMobil";
 import DaftarDanaMobil from "pages/DaftarSiapDanaMobil";
+import SiapDanaHaji from 'pages/SiapDanaHaji';
+import SiapDanaHajiForm from 'pages/SiapDanaHajiForm';
+import SiapDanaHajiFormTwo from 'pages/SiapDanaHajiFormTwo';
+import SiapDanaHajiDataDiri from 'pages/SiapDanaHajiDataDiri';
+import SiapDanaHajiFormTree from 'pages/SiapDanaHajiFormTree';
+import SiapDanaHajiDaftarPeserta from 'pages/SiapDanaHajiDaftarPeserta';
+
+
 import "assets/scss/style.scss";
 
 import './App.css';
@@ -134,6 +142,37 @@ function App() {
             path="/daftardanamobil"
             component={DaftarDanaMobil}
           />
+
+          <Route 
+          exact 
+          path="/siapdanahaji" 
+          component={SiapDanaHaji}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajiform" 
+          component={SiapDanaHajiForm}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajiformtwo" 
+          component={SiapDanaHajiFormTwo}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajidatadiri" 
+          component={SiapDanaHajiDataDiri}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajiformtree" 
+          component={SiapDanaHajiFormTree}/>
+
+          <Route 
+          exact 
+          path="/siapdanahajidaftarpeserta" 
+          component={SiapDanaHajiDaftarPeserta}/>
+
         </Switch>
       </Router>
     </div>
