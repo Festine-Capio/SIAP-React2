@@ -11,6 +11,11 @@ import Stepper from "@material-ui/core/Stepper";
 import Step from "@material-ui/core/Step";
 import StepLabel from "@material-ui/core/StepLabel";
 import StepContent from "@material-ui/core/StepContent";
+import SurveiLapangan from "components/SurveiLapangan";
+import ProsesPersetujuan from "components/ProsesPersetujuan";
+import Penandatanganan from "components/PenandatangananDigital";
+import PendaftaranSelesai from "components/PendaftaranSelesai";
+import { FaChevronDown } from "react-icons/fa";
 
 import Paper from "@material-ui/core/Paper";
 
@@ -45,9 +50,13 @@ function getStepContent(step) {
     case 0:
       return `Data Diri`;
     case 1:
-      return "";
+      return <SurveiLapangan />;
     case 2:
-      return ``;
+      return <ProsesPersetujuan />;
+    case 3:
+      return <Penandatanganan />;
+    case 4:
+      return <PendaftaranSelesai />;
     default:
       return "";
   }
@@ -80,7 +89,7 @@ const PengajuanDanaMobilContent = () => {
         </div>
       </div>
       <div className="row mt-4 ml-1">
-        <div className="col">
+        <div className="col-md-10">
           <Card>
             <Card.Header>Detail Form Pengajuan</Card.Header>
             <Card.Body>
@@ -117,6 +126,7 @@ const PengajuanDanaMobilContent = () => {
             <Card.Footer className="text-muted">Status :</Card.Footer>
           </Card>
         </div>
+        <div className="col">kbbhbh</div>
       </div>
       <div className="row mt-5">
         <Button variant="outline-secondary" size="lg" block>
