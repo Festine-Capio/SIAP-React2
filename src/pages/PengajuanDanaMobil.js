@@ -18,7 +18,7 @@ const PengajuanDanaMobil = () => {
               <div className="section-space32">
                 <PengajuanDana />
               </div>
-            </bigcard>
+            </bigcard> 
           </div>
         </div>
       </div>

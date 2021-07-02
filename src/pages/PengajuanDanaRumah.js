@@ -3,7 +3,7 @@ import SideBar from "components/SideBar";
 import Icon from "assets/images/search.png";
 import NavBar2 from "components/NavbarBorrow";
 import { Breadcrumb } from "react-bootstrap";
-import PengajuanDana from "components/PengajuanDanaMobilContent";
+import PengajuanDana from "components/PengajuanDanaRumahContent";
 const PengajuanDanaMobil = () => {
   return (
     <div className="row">

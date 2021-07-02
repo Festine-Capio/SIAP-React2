@@ -12,7 +12,7 @@ const LoginPage = () => {
 
     const [formData, setFormData] = useState({
       email: "",
-      password: "",
+      password: "", 
     });
     const history = useHistory();
     const { email, password } = formData;
