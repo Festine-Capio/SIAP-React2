@@ -4,7 +4,7 @@ import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Link from "@material-ui/core/Link";
 import BgMobil from "assets/images/mobil.PNG";
 import Aman from "assets/images/tumbnail-image-aman.png";
-import { Accordion, Card, ListGroup, Dropdown, Button } from "react-bootstrap";
+import { Accordion, Card, ListGroup, Dropdown, Button, Form } from "react-bootstrap";
 import { FaChevronRight, FaArrowLeft } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";
 import Stepper from "@material-ui/core/Stepper";
@@ -71,16 +71,24 @@ const PengajuanDanaMobilContent = () => {
 
   return (
     <>
-      <div className="row">
-        <div className="col-sm-2">
+      <div className="row dana-mobil">
+        <div className="col-1">
           <FaArrowLeft className="arrow-left" />
         </div>
         <div className="col">
           <h3>Pengajuan SIAP Dana Mobil</h3>
         </div>
       </div>
-      <div className="row mt-4 ml-1">
+      <div className="row dana-mobil-header mt-5 ml-2">
         <div className="col">
+          <h5>Form Pengajuan</h5>
+        </div>
+        <div className="col">
+          <h5>Survey Lapangan</h5>
+        </div>
+      </div>
+      <div className="row mt-4 ml-1">
+        <div className="col-6">
           <Card>
             <Card.Header>Detail Form Pengajuan</Card.Header>
             <Card.Body>
@@ -114,14 +122,45 @@ const PengajuanDanaMobilContent = () => {
                 </Stepper>
               </div>
             </Card.Body>
-            <Card.Footer className="text-muted">Status :</Card.Footer>
+            <Card.Footer className="text-muted">
+              <div className="row">
+                <div className="col">
+                  Status : 
+                </div>
+                <div className="col">
+                  <b>Survey Lapangan</b>
+                </div>
+              </div>
+            </Card.Footer>
           </Card>
+
+        </div>
+        <div className="col">
+          <div className="row">
+            <div className="col-5">
+              <span>No.Kontak</span> <br />
+              <b>081273211298</b>
+            </div>
+            <div className="col-7">
+              <span>Status</span> <br />
+              <b>Sedang Berjalan</b>
+            </div>
+            <div className="col-11 mt-4">
+              <span>Survey lapangan akan dilakukan pada tanggal dibawah ini, kami akan menghubungi Anda. Pastikan nomor telepon dapat dihubungi.</span>
+            </div>
+            <div className="col-12 mt-5">
+              <Form.Control type="date" />
+            </div>
+          </div>
         </div>
       </div>
-      <div className="row mt-5">
-        <Button variant="outline-secondary" size="lg" block>
+
+      <div className="row">
+        <div className="col-6 mt-3 ml-3">
+            <Button variant="outline-secondary" size="lg" block>
           Punya Pertanyaan?
-        </Button>
+          </Button> 
+        </div>
       </div>
     </>
   );

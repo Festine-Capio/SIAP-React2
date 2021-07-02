@@ -385,4 +385,8 @@ table tr th {
   font-weight: bold;
   color: #0c135f;
 }
+.dana-mobil h3,
+.dana-mobil-header h5 {
+  color: #0c135f;
+}
 /* Akhir Data Diri */
